@@ -33,11 +33,11 @@ The high-level workflow is:
 
 ```mermaid
 flowchart LR
-A[CSV datasets] --> B[Notebooks - preprocessing]
-B --> C[Train-Validate-Test split]
+A[CSV datasets] --> B[Notebooks preprocessing]
+B --> C[Train Validate Test]
 C --> D[Model training]
-D --> E[Evaluation and reports]
-E --> F[Export artifacts (.h5, PCA, tuned models)]
+D --> E[Evaluation reports]
+E --> F[Export artifacts]
 ```
 
 Project structure
