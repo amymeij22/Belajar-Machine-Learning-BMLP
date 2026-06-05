@@ -25,3 +25,7 @@ Thumbs.db
 #*.h5
 #*.ckpt
 #data/*.csv
+
+# ZIP artifacts
+*.zip
+Membangun Proyek Machine Learning.zip
