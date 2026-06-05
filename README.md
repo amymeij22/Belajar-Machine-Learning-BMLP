@@ -33,11 +33,11 @@ The high-level workflow is:
 
 ```mermaid
 flowchart LR
-	A[CSV datasets] --> B[Notebooks: preprocessing]
-	B --> C[Train / Validate / Test splits]
-	C --> D[Model training (classification / clustering)]
-	D --> E[Evaluation & reports]
-	E --> F[Export artifacts (.h5, PCA, tuned models)]
+A[CSV datasets] --> B[Notebooks - preprocessing]
+B --> C[Train-Validate-Test split]
+C --> D[Model training]
+D --> E[Evaluation and reports]
+E --> F[Export artifacts (.h5, PCA, tuned models)]
 ```
 
 Project structure
@@ -131,27 +131,4 @@ Project owner:
 
 - Name: Ahmad Meijlan Yasir
 - Email: yasirahmad220504@gmail.com
-
-Publishing to GitHub
----------------------
-Target remote repository (you provided): `https://github.com/amymeij22/i`
-
-Suggested description: "Final project for Belajar Machine Learning Untuk Pemula — classification and clustering notebooks, datasets, and trained model artifacts."
-
-Quick publish commands (run in project root):
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: add notebooks, datasets, models, README, LICENSE, requirements"
-git branch -M main
-git remote add origin https://github.com/amymeij22/i.git
-git push -u origin main
-```
-
-Notes:
-- Pushing requires authentication. If you are not authenticated, run `gh auth login` (GitHub CLI) or push via HTTPS with username/password or a personal access token.
-- If you prefer SSH, create a repo on GitHub and use the SSH remote instead.
-
-If you want, I can initialize the repository and attempt the push from this environment now — it will succeed only if credentials are available here.
 
